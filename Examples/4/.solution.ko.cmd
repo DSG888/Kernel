@@ -1,0 +1,1 @@
+cmd_/tmp/Kernel/Examples/4/solution.ko := ld -r -m elf_x86_64 -T /usr/src/linux-headers-4.9.0-3-common/scripts/module-common.lds --build-id  -o /tmp/Kernel/Examples/4/solution.ko /tmp/Kernel/Examples/4/solution.o /tmp/Kernel/Examples/4/solution.mod.o ;  true
